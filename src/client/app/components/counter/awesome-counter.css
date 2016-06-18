@@ -1,0 +1,8 @@
+:root {
+    --mainColor: green;
+}
+
+.customColor {
+    background-color: var(--mainColor);
+}
+

@@ -1,6 +1,8 @@
+'use strict';
+
 import React from 'react';
 
-class AwesomeComponent extends React.Component {
+class AwesomeCounter extends React.Component {
 
   constructor(props) {
     super(props);
@@ -17,11 +19,11 @@ class AwesomeComponent extends React.Component {
     return (
       <div>
         Likes : <span>{this.state.likesCount}</span>
-        <div><button onClick={this.onLike}>Like Me</button></div>
+        <div className="red"><button onClick={this.onLike}>Like Me</button></div>
       </div>
     );
   }
 
 }
 
-export default AwesomeComponent;
+export default AwesomeCounter;

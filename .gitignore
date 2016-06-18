@@ -1,3 +1,8 @@
+src/client/dist
+.vscode
+
+jsconfig.json
+
 # Logs
 logs
 *.log
