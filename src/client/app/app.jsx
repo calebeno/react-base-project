@@ -1,13 +1,13 @@
 import React from 'react';
 import {render} from 'react-dom';
 import AwesomeCounter from './components/counter/awesome-counter.jsx';
-import css from './index.css';
+import './app.css';
 
 class App extends React.Component {
   render () {
     return (
       <div>
-        <p> Hello React!</p>
+        <p> Hello Caleb!</p>
         <AwesomeCounter />
       </div>
     );

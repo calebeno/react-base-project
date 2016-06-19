@@ -19,7 +19,7 @@ class AwesomeCounter extends React.Component {
     return (
       <div>
         Likes : <span>{this.state.likesCount}</span>
-        <div className="red"><button onClick={this.onLike}>Like Me</button></div>
+        <div className="customColor"><button onClick={this.onLike}>Like Me</button></div>
       </div>
     );
   }
