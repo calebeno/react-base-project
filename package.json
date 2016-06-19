@@ -4,12 +4,13 @@
   "description": "A Base Project for React",
   "main": "src/client/dist/bundle.js",
   "scripts": {
+    "clean": "rimraf dist/*",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:html": "copyfiles -u 3 ./src/client/app/index.html ./src/client/dist",
     "open:dev": "opener http://localhost:1337",
-    "predev": "webpack -d && npm run build:html && npm run open:dev",
+    "predev": "npm run clean && webpack -d && npm run build:html && npm run open:dev",
     "dev": "webpack-dev-server --hot --inline",
-    "build": "webpack -p"
+    "build": "npm run build:html && webpack -p"
   },
   "repository": {
     "type": "git",
@@ -39,6 +40,7 @@
     "postcss-cssnext": "^2.6.0",
     "postcss-import": "^8.1.2",
     "postcss-loader": "^0.9.1",
+    "rimraf": "^2.5.2",
     "style-loader": "^0.13.1",
     "webpack": "^1.13.1",
     "webpack-dev-server": "^1.14.1"

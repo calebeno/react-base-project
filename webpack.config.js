@@ -14,6 +14,7 @@ var config = {
         path: BUILD_DIR,
         filename: 'app.js'
     },
+    devtool: "#inline-source-map",
     module: {
         loaders: [{
             test: /\.jsx?$/,
