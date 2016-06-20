@@ -2,7 +2,7 @@
 
 import React from 'react';
 
-class AwesomeCounter extends React.Component {
+class Counter extends React.Component {
 
   constructor(props) {
     super(props);
@@ -26,4 +26,4 @@ class AwesomeCounter extends React.Component {
 
 }
 
-export default AwesomeCounter;
+export default Counter;

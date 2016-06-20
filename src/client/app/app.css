@@ -1,6 +1,7 @@
 
 @import "vars.css";
-@import "components/counter/awesome-counter.css";
+@import "components/counter/counter.css";
+@import "components/hello/hello.css";
 
 body {
   line-height: var(--baseline);

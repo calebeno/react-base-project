@@ -1,14 +1,15 @@
 import React from 'react';
 import {render} from 'react-dom';
-import AwesomeCounter from './components/counter/awesome-counter.jsx';
+import Counter from './components/counter/counter.jsx';
+import Hello from './components/hello/hello.jsx';
 import './app.css';
 
 class App extends React.Component {
   render () {
     return (
       <div>
-        <p> Hello Caleb!</p>
-        <AwesomeCounter />
+        <Hello />
+        <Counter />
       </div>
     );
   }
