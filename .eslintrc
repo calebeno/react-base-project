@@ -2,6 +2,9 @@
     "plugins": [
         "react"
     ],
+    "env": {
+        "browser": true
+    },
     "settings": {
         "react": {
             "pragma": "React", // Pragma to use, default to "React" 
